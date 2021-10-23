@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var todoAdapter : TodoAdapter
 
-    override fun onCreate(savedInstanceState: Bundle?) { // Called once this Activity is created
+    override fun onCreate(savedInstanceState: Bundle?) { 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
